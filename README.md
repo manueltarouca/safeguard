@@ -29,9 +29,11 @@ USAGE
 <!-- usagestop -->
 # Commands
 <!-- commands -->
+* [`safeguard generate [FILE]`](#safeguard-generate-file)
 * [`safeguard hello PERSON`](#safeguard-hello-person)
 * [`safeguard hello world`](#safeguard-hello-world)
 * [`safeguard help [COMMAND]`](#safeguard-help-command)
+* [`safeguard import [FILE]`](#safeguard-import-file)
 * [`safeguard plugins`](#safeguard-plugins)
 * [`safeguard plugins:install PLUGIN...`](#safeguard-pluginsinstall-plugin)
 * [`safeguard plugins:inspect PLUGIN...`](#safeguard-pluginsinspect-plugin)
@@ -41,6 +43,27 @@ USAGE
 * [`safeguard plugins:uninstall PLUGIN...`](#safeguard-pluginsuninstall-plugin-1)
 * [`safeguard plugins:uninstall PLUGIN...`](#safeguard-pluginsuninstall-plugin-2)
 * [`safeguard plugins update`](#safeguard-plugins-update)
+
+## `safeguard generate [FILE]`
+
+describe the command here
+
+```
+USAGE
+  $ safeguard generate [FILE] [-n <value>] [-f]
+
+FLAGS
+  -f, --force
+  -n, --name=<value>  name to print
+
+DESCRIPTION
+  describe the command here
+
+EXAMPLES
+  $ safeguard generate
+```
+
+_See code: [dist/commands/generate.ts](https://github.com/manueltarouca/safeguard/blob/v0.0.0/dist/commands/generate.ts)_
 
 ## `safeguard hello PERSON`
 
@@ -101,6 +124,27 @@ DESCRIPTION
 ```
 
 _See code: [@oclif/plugin-help](https://github.com/oclif/plugin-help/blob/v5.1.12/src/commands/help.ts)_
+
+## `safeguard import [FILE]`
+
+import private key
+
+```
+USAGE
+  $ safeguard import [FILE] [-n <value>] [-f]
+
+FLAGS
+  -f, --force
+  -n, --name=<value>  name to print
+
+DESCRIPTION
+  import private key
+
+EXAMPLES
+  $ safeguard import
+```
+
+_See code: [dist/commands/import.ts](https://github.com/manueltarouca/safeguard/blob/v0.0.0/dist/commands/import.ts)_
 
 ## `safeguard plugins`
 
