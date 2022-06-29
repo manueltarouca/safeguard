@@ -30,8 +30,7 @@ USAGE
 # Commands
 <!-- commands -->
 * [`safeguard generate [FILE]`](#safeguard-generate-file)
-* [`safeguard hello PERSON`](#safeguard-hello-person)
-* [`safeguard hello world`](#safeguard-hello-world)
+* [`safeguard get ENTRY`](#safeguard-get-entry)
 * [`safeguard help [COMMAND]`](#safeguard-help-command)
 * [`safeguard import [FILE]`](#safeguard-import-file)
 * [`safeguard plugins`](#safeguard-plugins)
@@ -65,45 +64,26 @@ EXAMPLES
 
 _See code: [dist/commands/generate.ts](https://github.com/manueltarouca/safeguard/blob/v0.0.0/dist/commands/generate.ts)_
 
-## `safeguard hello PERSON`
+## `safeguard get ENTRY`
 
-Say hello
+describe the command here
 
 ```
 USAGE
-  $ safeguard hello [PERSON] -f <value>
-
-ARGUMENTS
-  PERSON  Person to say hello to
+  $ safeguard get [ENTRY] [-n <value>] [-f]
 
 FLAGS
-  -f, --from=<value>  (required) Whom is saying hello
+  -f, --force
+  -n, --name=<value>  name to print
 
 DESCRIPTION
-  Say hello
+  describe the command here
 
 EXAMPLES
-  $ oex hello friend --from oclif
-  hello friend from oclif! (./src/commands/hello/index.ts)
+  $ safeguard get
 ```
 
-_See code: [dist/commands/hello/index.ts](https://github.com/manueltarouca/safeguard/blob/v0.0.0/dist/commands/hello/index.ts)_
-
-## `safeguard hello world`
-
-Say hello world
-
-```
-USAGE
-  $ safeguard hello world
-
-DESCRIPTION
-  Say hello world
-
-EXAMPLES
-  $ oex hello world
-  hello world! (./src/commands/hello/world.ts)
-```
+_See code: [dist/commands/get.ts](https://github.com/manueltarouca/safeguard/blob/v0.0.0/dist/commands/get.ts)_
 
 ## `safeguard help [COMMAND]`
 
